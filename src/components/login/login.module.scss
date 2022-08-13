@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px; 
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  color: #444;
+}
+
+.returnLink {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

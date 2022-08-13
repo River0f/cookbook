@@ -1,0 +1,21 @@
+.body {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 1.2em;
+  width: min-content;
+  padding: 0;
+  background-color: none;
+} 

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&display=swap');
+
+.wrapper {
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+  0 2px 2px rgba(0,0,0,0.06), 
+  0 4px 4px rgba(0,0,0,0.06), 
+  0 4px 4px rgba(0,0,0,0.06),
+  0 8px 8px rgba(0,0,0,0.06);
+  color: #222;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 350px;
+}
+
+
+.main {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.name {
+  font-family: 'Tinos', serif;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+  text-overflow: wrap;
+}
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #444;
+  height: 100%;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  color: #333;
+  max-width: 100%;
+}
+
+.link:hover {
+  color: #666;
+}
+
+.rate {
+  text-align: end;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: end;
+  color: #333;
+}
+
+.thumbnail {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.bar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.bar button:hover {
+  background-color: #eee;
+}
+
+.bar button:active {
+  background-color: #ccc;
+}
+
+.loaderWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}

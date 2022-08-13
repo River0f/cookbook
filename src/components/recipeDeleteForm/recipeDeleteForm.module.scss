@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&display=swap');
+
+.form {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.loginInvite {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

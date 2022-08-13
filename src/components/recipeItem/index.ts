@@ -1,0 +1,1 @@
+export { RecipesItem } from './recipeItem';

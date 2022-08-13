@@ -1,0 +1,56 @@
+.wrapper {
+  margin-top: 20px;
+}
+
+.form {
+  width: 100%;
+}
+
+.fieldWrapper {
+  margin: 10px 0;
+}
+
+.field {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #999;
+}
+
+
+.field:active,
+.field:focus {
+  outline: none;
+  border: 2px solid #333;
+}
+
+.textarea {
+  min-width: 100%;
+  resize: none;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100px;
+}
+
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.commentsList {
+  background-color: rgb(247, 245, 221);
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  color: rgba(245, 66, 35, 0.986);
+  font-size: 0.8em;
+}
+
+.author {
+  font-size: 1em;
+  color: #555;
+}
+

@@ -1,0 +1,91 @@
+.form {
+  font-family: 'Roboto', sans-serif;
+  width: 350px;
+  height: 500px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.form::-webkit-scrollbar {
+  display: none;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  color: rgba(245, 66, 35, 0.986);
+  font-size: 0.8em;
+}
+
+.textarea {
+  resize: none;
+  overflow-y: scroll;
+  height: 100px;
+}
+
+.buttWrapper {
+  position: relative;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.submitError{
+  position: absolute;
+  bottom: -5px;
+  left: 10px;
+  color: rgba(245, 66, 35, 0.986);
+  font-size: 0.8em;
+}
+
+.thumbnailWrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.thumbnailPreview {
+  width: 100%;
+  height: auto;
+  border: 2px solid #666;
+}
+
+.imageWrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.imagePreview {
+  width: 100%;
+  height: auto;
+  border: 2px solid #666;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #999;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #333;
+}
+
+.option {
+  padding: 5px;
+}

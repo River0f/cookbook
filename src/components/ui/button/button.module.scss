@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&display=swap');
+
+.button {
+  border: 1px solid #999;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  background-color: #eee;
+}
+
+.button:active {
+  background-color: #ccc;
+}
